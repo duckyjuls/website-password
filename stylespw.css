@@ -1,0 +1,27 @@
+body {
+    background: url('butterfliesbackground.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    text-align: left;
+    color: darkslategray;
+    font-size: 10px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+}
