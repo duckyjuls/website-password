@@ -4,7 +4,7 @@ const submit = document.getElementById('submit');
 
 submit.addEventListener('click', () => {
     if (input.value === password) {
-        window.location.href = 'https://github.com/duckyjuls/websitemain.git';
+        window.location.href = 'https://duckyjuls.github.io/websitemain/';
     } else {
         alert('Incorrect password. Please try again.');
     }
